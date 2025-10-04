@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Target, Plus, X, Check, Edit2, Trash2 } from 'lucide-react';
+import { Target, Plus, X, Check, CreditCard as Edit2, Trash2 } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 
 export default function HabitsTracker({ user }) {
